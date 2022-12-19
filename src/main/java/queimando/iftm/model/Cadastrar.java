@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CadastrarPro {
+public class Cadastrar {
     private int id;
 
     private String nomep;
