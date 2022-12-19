@@ -1,5 +1,20 @@
 package queimando.iftm.model;
 
-public class cadastrarpro {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CadastrarPro {
+    private int id;
+
+    private String nomep;
+
+    private float preco;
+
+    private String foto;
+
+    private String endereco;
 }
